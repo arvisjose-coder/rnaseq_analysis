@@ -1,0 +1,11 @@
+data/raw/*.fastq.gz
+data/raw/*.fastq
+data/reference/*.fa
+data/reference/*.gtf
+data/processed/bam/*.bam
+data/processed/bam/*.bai
+logs/*.log
+.ipynb_checkpoints/
+__pycache__/
+.Rhistory
+.RData
