@@ -1,9 +1,31 @@
+# Données brutes
 data/raw/*.fastq.gz
 data/raw/*.fastq
+data/raw/*.tar
+
+# Référence
 data/reference/*.fa
 data/reference/*.gtf
+data/reference/hisat2_index/
+
+# BAM
 data/processed/bam/*.bam
 data/processed/bam/*.bai
+
+# Résultats volumineux
+results/01_fastqc/*.html
+results/01_fastqc/*.zip
+results/01_fastqc/multiqc_report*
+
+# Notebooks mal placés
+notebooks/*.tar
+notebooks/*.tar.*
+
+# Divers
+.ipynb_checkpoints/
+__pycache__/
+.Rhistory
+.RData
 logs/*.log
 .ipynb_checkpoints/
 __pycache__/
